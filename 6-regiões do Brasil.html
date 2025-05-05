@@ -19,7 +19,7 @@
 
     header {
       background-color: #1b5e20;
-      padding: 40px 0;
+      padding: 40px 20px;
       text-align: center;
       color: white;
     }
@@ -78,6 +78,35 @@
       padding: 20px;
       margin-top: 40px;
     }
+
+    @media (max-width: 768px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 26px;
+      }
+
+      .content h2 {
+        font-size: 22px;
+      }
+
+      .content h3 {
+        font-size: 20px;
+      }
+
+      .content p {
+        font-size: 16px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -102,23 +131,23 @@
 
     <h3>🌳 Amazônia Legal</h3>
     <p>Programas de reflorestamento, proteção de áreas indígenas e projetos de monitoramento por satélite estão em execução.</p>
-    <img src="satelite.png" alt="satelite.png">
+    <img src="satelite.png" alt="Imagem de satélite monitorando a Amazônia Legal">
 
     <h3>⚡ Nordeste – Energia Renovável</h3>
     <p>O Nordeste brasileiro lidera a produção de energia eólica e solar no país, com projetos em estados como Bahia, Ceará e Rio Grande do Norte.</p>
-    <img src="eolica.png" alt="eolica.png">
+    <img src="eolica.png" alt="Parque eólico no Nordeste do Brasil">
 
     <h3>🚲 Sul – Mobilidade Sustentável</h3>
     <p>Cidades como Curitiba e Florianópolis estão investindo em transporte público eficiente, ciclovias e incentivos à mobilidade verde.</p>
-    <img src="eletrico.jpg" alt="eletrico.jpg">
+    <img src="eletrico.jpg" alt="Transporte elétrico e ciclovias em Curitiba">
 
     <h3>🧪 Sudeste – Inovação em Sustentabilidade</h3>
     <p>Centros de pesquisa em São Paulo e Minas Gerais promovem estudos sobre energias limpas, agricultura regenerativa e cidades inteligentes.</p>
-    <img src="centro.jpg" alt="centro.jpg">
+    <img src="centro.jpg" alt="Centro de pesquisa em inovação sustentável">
 
     <h3>🌱 Centro-Oeste – Agroecologia e Cerrado</h3>
     <p>Projetos de agricultura sustentável no Cerrado e uso consciente da água têm ganhado destaque em Goiás e Mato Grosso do Sul.</p>
-    <img src="planta.jpg" alt="planta.jpg">
+    <img src="planta.jpg" alt="Projeto de agroecologia no Cerrado">
   </div>
 
   <footer>
