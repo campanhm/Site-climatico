@@ -19,7 +19,7 @@
 
     header {
       background-color: #1b5e20;
-      padding: 40px 0;
+      padding: 40px 20px;
       text-align: center;
       color: white;
     }
@@ -48,27 +48,27 @@
     }
 
     .content {
-     padding: 40px 20px;
-     text-align: center;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
+      padding: 40px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .content h2,
     .content h3,
     .content p {
-     max-width: 800px;
-     text-align: center;
-     margin-bottom: 25px;
+      max-width: 800px;
+      text-align: center;
+      margin-bottom: 25px;
     }
 
     .content img {
-     max-width: 90%;
-     height: auto;
-     border-radius: 10px;
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-     margin-bottom: 50px;
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 50px;
     }
 
     footer {
@@ -77,6 +77,35 @@
       text-align: center;
       padding: 20px;
       margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 26px;
+      }
+
+      .content h2 {
+        font-size: 22px;
+      }
+
+      .content h3 {
+        font-size: 20px;
+      }
+
+      .content p {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
@@ -92,8 +121,8 @@
     <a href="3-galeria.html">Galeria</a>
     <a href="4-iniciativas.html">Iniciativas</a>
     <a href="5-projetos.html">Projetos Futuros</a>
-    <a href="6regiões do Brasil.html">Regiões com iniciativas</a>
-    <a href="7entidade envolvidas.html">Pessoas e entidade envolvidas</a>
+    <a href="6-regiões do Brasil.html">Regiões com iniciativas</a>
+    <a href="7-entidade envolvidas.html">Pessoas e entidade envolvidas</a>
   </nav>
 
   <div class="content">
@@ -102,20 +131,20 @@
     
     <h3>Impactos das Mudanças Climáticas</h3>
     <p>Imagens ilustrando os desastres naturais, que são um reflexo do aquecimento global.</p>
-    <img src="eventos 2.png" alt="eventos 2.png">
+    <img src="eventos2.png" alt="Eventos climáticos extremos">
 
     <h3>Mapa Climático Global</h3>
     <p>Este mapa mostra as áreas mais vulneráveis às mudanças climáticas.</p>
-    <img src="mapa-global.png" alt="mapa-global.png"
-   
-    <!-- Imagem do mapa climático do Brasil -->    
-    <h3>Mapa de mudanças climáticas no Brasil</h3>
+    <img src="mapa-global.png" alt="Mapa climático global">
+
+    <h3>Mapa de Mudanças Climáticas no Brasil</h3>
     <p>Mapa ilustrando como o Brasil é vulnerável a mudanças climáticas.</p>
-    <img src="aquec15.png" alt="aquec15.png">
-    
-    <h3>Mapa do mundo no futuro</h3>
-    <p>Mapa ilustrando como o mundo vai estar em 2099, devido ás mudanças climáticas</p>
-    <img src="mapa-futuro.png" alt="mapa-futuro.png">
+    <img src="aquec15.png" alt="Mapa do Brasil e mudanças climáticas">
+
+    <h3>Mapa do Mundo no Futuro</h3>
+    <p>Mapa ilustrando como o mundo pode estar em 2099, devido às mudanças climáticas.</p>
+    <img src="mapa-futuro.png" alt="Mapa do futuro em 2099">
+  </div>
 
   <footer>
     &copy; 2025 | Galeria sobre a ODS 13 | ONU - Objetivos de Desenvolvimento Sustentável
